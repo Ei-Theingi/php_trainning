@@ -1,20 +1,20 @@
 <?php
- for ( $x = 1 ; $x < 7 ; $x++)
+ for ( $row = 1 ; $row < 7 ; $row++)
  {  
-   for( $y = $x ; $y < 7 ; $y++){
+   for( $space = $row ; $space < 7 ; $space++){
      echo "&nbsp;&nbsp;";
    }
-   for( $z =(2* $x) - 1 ; $z > 0 ; $z --){
+   for( $col =(2* $row) - 1 ; $col > 0 ; $col--){
        echo "  * ";
     }
     echo "<br>";
  }
- for ( $x = 5 ; $x > 0 ; $x--)
+ for ( $row = 5 ; $row > 0 ; $row--)
  {  
-   for( $y = $x ; $y < 7 ; $y++){
+   for( $space = $row ; $space < 7 ; $space++){
      echo "&nbsp;&nbsp;";
    }
-   for( $z =(2* $x) - 1 ; $z > 0 ; $z --){
+   for( $col =(2* $row) - 1 ; $col > 0 ; $col --){
        echo "  * ";
     }
     echo "<br>";
