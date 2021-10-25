@@ -26,7 +26,7 @@ while ($row = $results -> fetch_assoc()){
     echo"<td> $row4</td>";
 }
 echo "</table>";
-}//end
+}
 ?>
 
     

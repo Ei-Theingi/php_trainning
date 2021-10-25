@@ -80,7 +80,5 @@ crossorigin="anonymous">
     </form>
   </div>
 </div>
-
-//end
 </body>
 </html>

@@ -22,4 +22,4 @@ if(isset($_POST['generate'])){
 }
 ?>
 </body>
-</html>//end
+</html>

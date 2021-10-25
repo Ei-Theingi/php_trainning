@@ -17,4 +17,4 @@
  move_uploaded_file($image['tmp_name'],"photos/".$image['name']);
 ?>
 </body>
-</html>//end
+</html>

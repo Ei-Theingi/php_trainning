@@ -40,4 +40,4 @@ if(isset($_GET['del'])){
   header('location: index.php');
 }
 $results =mysqli_query($db,"SELECT * FROM students");
-?>//end
+?>
