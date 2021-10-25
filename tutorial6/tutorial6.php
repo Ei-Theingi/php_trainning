@@ -15,6 +15,6 @@
  $image = $_FILES['myfile'];
  echo "Filetype::" .$image['name'];
  move_uploaded_file($image['tmp_name'],"photos/".$image['name']);
-?>//end
+?>
 </body>
-</html>
+</html>//end
